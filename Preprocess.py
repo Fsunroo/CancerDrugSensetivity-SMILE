@@ -174,7 +174,7 @@ ICs_encoded=encode_ICs(ICs)
 print(drugs_encoded.shape)
 print(cells_encoded.shape)
 print(ICs_encoded.shape)
-'''
+
 np.save('drugs_encoded',drugs_encoded)
 np.save('cells_encoded',cells_encoded)
-np.save('ICs_encoded',ICs_encoded)'''
+np.save('ICs_encoded',ICs_encoded)
